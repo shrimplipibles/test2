@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 var prefix = "*";
 
-client.login("NTg0Mjk5NjcyNjU5Njg5NDgy.XPKRZQ.NQnx2Fod774jkiFYJxqaoGzZszw");
+client.login("NTg0NDUzNTIwNTk4NzYxNDcy.XPLIxw.fXkLBx3ozhFx3dGkU1mzBuOQSHY");
 client.on("ready", () => { 
     console.log("Je suis prêt !"); 
     client.user.setGame("être un test");
@@ -18,4 +18,4 @@ client.on('message', msg => {
     msg.reply('pong')
   }
 })
-client.login('NTg0Mjk5NjcyNjU5Njg5NDgy.XPKRZQ.NQnx2Fod774jkiFYJxqaoGzZszw')
+client.login('NTg0NDUzNTIwNTk4NzYxNDcy.XPLIxw.fXkLBx3ozhFx3dGkU1mzBuOQSHY')
